@@ -1,0 +1,28 @@
+@media all and (max-width: 570px) 
+{
+.cards {
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px 70px;
+    
+    }
+
+    .cards img{
+        background-size: cover;
+        width: 100%;
+            }
+}
+
+
+@media all and (max-width: 768px) 
+{
+.cards {
+        grid-template-columns: repeat(2, 0.7fr);
+    }
+
+    .cards img{
+        background-size: cover;
+        width: 100%;
+            }
+}
